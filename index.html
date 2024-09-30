@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Codecademy-Colmar Academy</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- SECTION NAVBAR -->
+
+    <header>
+      <nav id="navbar">
+        <div id="fullLogo">
+          <img
+            id="logoIcon"
+            class="logo"
+            src="resources/images/ic-logo.svg"
+            alt="standing lion black"
+          />
+          <h4 id="logoText" class="logo">COLMAR ACADEMY</h4>
+        </div>
+
+        <input type="checkbox" name="check" id="check" />
+        <label for="check" id="humberger">
+          <div></div>
+        </label>
+        <div id="nav-links" role="navigation">
+          <ul>
+            <li><a class="nav-link" href="#onCampus">On campus</a></li>
+            <li><a class="nav-link" href="#online">Online</a></li>
+            <li><a class="nav-link" href="#forCompanies">For companies</a></li>
+            <li><a class="nav-link" href="#signIn">Sign in</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- SECTION 1 HERO BANNER -->
+
+    <div id="hero" role="region" aria-labelledby="heroTitle">
+      <div id="heroImageContainer">
+        <img
+          id="heroImage"
+          src="resources/images/banner.jpg"
+          alt="students study at outdoor table"
+        />
+      </div>
+      <div id="heroTextContainer">
+        <div id="heroText">
+          <h1 id="heroTitle">Learn something new everyday</h1>
+          <p id="heroImageP">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            consectetur doloremque accusantium ipsam aspernatur enim odio
+            nesciunt excepturi? Vel voluptatem assumenda laborum asperiores
+            omnis iure similique quas recusandae corporis aperiam!
+          </p>
+          <button id="startButton" class="btn red" type="button">
+            <span>START HERE</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION 2 PRACTICING -->
+
+    <div id="practicing" role="region" aria-labelledby="infoMainTitle">
+      <div id="infoMain">
+        <img
+          id="practicingImage"
+          src="resources/images/information-main.jpg"
+          alt="Man reading book outdoors"
+        />
+        <h1 id="infoMainTitle" class="infoMain">
+          It doesn't hurt to keep practicing
+        </h1>
+        <p id="practicingImageP" class="infoMain">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quasi
+          rerum earum error, aliquam nisi. Veniam, enim magnam dicta officia
+          delectus a odio hic! Molestiae vero aliquam veniam earum facere!
+        </p>
+        <h4 class="infoMain">Emanuel, Sr Strategist at Hiring.com</h4>
+      </div>
+      <div id="currentEventsContainer">
+        <div id="currentEventOne" class="currentEvent">
+          <img
+            id="eventOneImage"
+            class="eventImages"
+            src="resources/images/information-orientation.jpg"
+            alt="shadows at the crosswalk"
+          />
+          <div id="eventOneText" class="eventTexts">
+            <h2>Orientation Date</h2>
+            <p class="eventTextP">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <h4>Read More</h4>
+          </div>
+        </div>
+
+        <div id="currentEventTwo" class="currentEvent">
+          <img
+            id="eventTwoImage"
+            class="eventImages"
+            src="resources/images/information-campus.jpg"
+            alt="bistro setting, framed map of africa on wall"
+          />
+          <div id="eventTwoText" class="eventTexts">
+            <h2>Our Campus</h2>
+            <p class="eventTextP">Find which campus is close by you</p>
+            <h4>Read More</h4>
+          </div>
+        </div>
+
+        <div id="currentEventThree" class="currentEvent">
+          <img
+            id="eventThreeImage"
+            class="eventImages"
+            src="resources/images/information-guest-lecture.jpg"
+            alt="photo of guest lecturer"
+          />
+          <div id="eventThreeText" class="eventTexts">
+            <h2>Our Guest Lecturer</h2>
+            <p class="eventTextP">
+              Join a keynote with Oliver Sack about music in medical treatment
+            </p>
+            <h4>Read More</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 3 LEARNING -->
+
+    <div id="learning" role="region" aria-labelledby="sectionTitle">
+      <h1 id="sectionTitle" class="sectionTitle">Start learning</h1>
+      <div id="learningTilesContainer">
+        <div id="learningTileRowOne" class="learningTileRows">
+          <div id="learningTileOne" class="learningTile">
+            <img
+              id="tileOneImage"
+              class="tileImages"
+              src="resources/images/course-software.jpg"
+              alt="software-course"
+            />
+            <div id="tileOneText" class="tileTexts">
+              <h2>Software engineering</h2>
+              <p class="coursesText">Courses</p>
+              <p class="coursesDescriptionText">
+                Web Development, Mobile Development, IoT, APIs
+              </p>
+            </div>
+          </div>
+
+          <div id="learningTileTwo" class="learningTile">
+            <img
+              id="tileTwoImage"
+              class="tileImages"
+              src="resources/images/course-computer-art.jpg"
+              alt="computer-art-course"
+            />
+            <div id="tileTwoText" class="tileTexts">
+              <h2>Computer art</h2>
+              <p class="coursesText">Courses</p>
+              <p class="coursesDescriptionText">
+                Imaging & Design, Web Design, Motion Graphics & Visual Effects,
+                Computer Animation
+              </p>
+            </div>
+          </div>
+
+          <div id="learningTileThree" class="learningTile">
+            <img
+              id="tileThreeImage"
+              class="tileImages"
+              src="resources/images/course-design.jpg"
+              alt="course-design"
+            />
+            <div id="tileThreeText" class="tileTexts">
+              <h2>Design</h2>
+              <p class="coursesText">Courses</p>
+              <p class="coursesDescriptionText">
+                User Experience Design, User Research, Visual Design
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="learningTileRowTwo" class="learningTileRows">
+          <div id="learningTileFour" class="learningTile">
+            <img
+              id="tileFourImage"
+              class="tileImages"
+              src="resources/images/course-data.jpg"
+              alt="course-data"
+            />
+
+            <div id="tileFourText" class="tileTexts">
+              <h2>Data</h2>
+              <p class="coursesText">Courses</p>
+              <p class="coursesDescriptionText">
+                Data Science, Big Data, SQL, Data Visualization
+              </p>
+            </div>
+          </div>
+
+          <div id="learningTileFive" class="learningTile">
+            <img
+              id="tileFiveImage"
+              class="tileImages"
+              src="resources/images/course-business.jpg"
+              alt="course-business"
+            />
+            <div id="tileFiveText" class="tileTexts">
+              <h2>Business</h2>
+              <p class="coursesText">Courses</p>
+              <p class="coursesDescriptionText">
+                Product Development, Business Development, Startup
+              </p>
+            </div>
+          </div>
+
+          <div id="learningTileSix" class="learningTile">
+            <img
+              id="tileSixImage"
+              class="tileImages"
+              src="resources/images/course-marketing.jpg"
+              alt="course-marketing"
+            />
+            <div id="tileSixText" class="tileTexts">
+              <h2>Marketing</h2>
+              <p class="coursesText">Courses</p>
+              <p class="coursesDescriptionText">
+                Analytics, Content Marketing, Mobile Marketing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION 4 THESIS -->
+
+    <div id="thesis" role="region" aria-labelledby="thesisTitle">
+      <h1 id="thesisTitle">Thesis exhibit</h1>
+
+      <div id="thesisContainer">
+        <div id="videoContainer">
+          <video
+            id="play"
+            class="videoContainer"
+            src="resources/videos/thesis.mp4"
+            alt=""
+            controls
+          ></video>
+          <h1 id="videoTitle" class="videoContainer">Reimagine urban</h1>
+          <p class="videoContainer">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+            magnam esse maiores minima distinctio magni suscipit modi.
+            Consequatur facere itaque modi facilis iste nostrum veniam sapiente
+            eum, id ducimus error?
+          </p>
+        </div>
+
+        <div id="exhibitsContainer">
+          <div id="exhibitOne" class="exhibits">
+            <img
+              id="exhibitOneImage"
+              class="exhibitImages"
+              src="resources/images/thesis-fisma.jpg"
+              alt="fisma-thesis"
+            />
+            <div id="exhibitOneText" class="exhibitTexts">
+              <h2>Fisma: Design and Prototype</h2>
+              <p class="exhibitTextP">
+                Designer showcase of new prototype product
+              </p>
+            </div>
+          </div>
+
+          <div id="exhibitTwo" class="exhibits">
+            <img
+              id="exhibitTwoImage"
+              class="exhibitImages"
+              src="resources/images/thesis-now-and-then.jpg"
+              alt="exhibit-image"
+            />
+            <div id="exhibitTwoText" class="exhibitTexts">
+              <h2>Now and Then</h2>
+              <p class="exhibitTextP">Research study about New York</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION FOOTER -->
+
+    <footer id="contact" class="footer">
+      <div class="footerContent">
+        <div class="column2">
+          <h1>COLMAR ACADEMY</h1>
+          <a href="./index.html">Home</a>
+          <a href="#thesis">Thesis</a><br />
+          <a href="#learning">Start Learning</a>
+          <a href="#practicing">About</a><br />
+          <a href="#">Explore More</a>
+        </div>
+        <div class="column1">
+          <div>
+            <h5>How to Reach Us</h5>
+            <p>1234 Main St. <br />New York, NY 98765</p>
+            <i class="fa fa-phone fa-lg"></i>:
+            <a href="tel:11234567891">+1 (123) 456-7891</a><br />
+            <i class="fa fa-fax fa-lg"></i>: +1 (987) 654-3210<br />
+            <i class="fa fa-envelope fa-lg"></i>:
+            <a href="mailto:colmaracademy@gmail.com">colmaracademy@gmail.com</a>
+          </div>
+        </div>
+        <div class="contactLinks">
+          <div>
+            <h3>Reach out to us:</h3>
+            <div class="contactIcons">
+              <a
+                class="btn btn-social-icon btn-pinterest"
+                href="http://www.pinterest.com/in/"
+                ><i class="fab fa-pinterest fa-2x"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-facebook"
+                href="http://www.facebook.com/"
+                ><i class="fab fa-facebook fa-2x"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-twitter"
+                href="http://twitter.com/"
+                ><i class="fab fa-twitter fa-2x"></i
+              ></a>
+              <a
+                class="btn btn-social-icon btn-instagram"
+                href="http://www.instagram.com/"
+                ><i class="fab fa-instagram fa-2x"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy">
+        <p>Terms Privacy © 2024 Colmar Academy. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
