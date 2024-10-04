@@ -8,4 +8,4 @@ I worked with Git and GitHub on my local machine for this project. This website 
 
 ## View Live Site
 
-You can view the live site on GitHub Pages [here](https://marcprojer.github.io/Colmar-Academy/).
+You can view the live site on GitHub Pages [here](https://marcprojer.github.io/colmarAcademy/).
